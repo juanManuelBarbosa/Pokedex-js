@@ -1,0 +1,29 @@
+#pokemons-container{
+   
+    display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around;
+}
+
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 2px solid #000;
+    background-color: rgb(219, 251, 240);
+    margin: 5px;
+}
+
+
+.contenedorImagen{
+    
+    width: 60%;
+    
+}
+
+.contenedorImagen img{
+    width: 100%;
+}
